@@ -1,0 +1,121 @@
+/* إعدادات الخلفية */
+body {
+  margin: 0;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1b181ac2,#252e23, #0000006e);
+  font-family: Arial, sans-serif;
+}
+
+/* تصميم البطاقة */
+.card {
+  width: 110px;
+  height: 230px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(184,179,179,0.481), rgba(47,2,2,0.8), rgba(127,18,18,0.7), rgba(255,255,255,0.356));
+  border-radius: 15px;
+  border: 3.5px solid black;
+  text-align: center;
+}
+
+
+
+/* عنوان البطاقة */
+.card-header h1 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+
+/* زر التحميل */
+.download-btn {
+  padding: 10px 20px;
+  margin-top: 190px;  /* زيادة المسافة بين الزر والعناصر فوقه */
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(135deg, #167509, #147903);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+border: 2.5px solid black;
+  width: 120px;
+
+  position: absolute;
+  left: 16px;
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #008236, #00200c);
+  transform: scale(1.05);
+}
+
+
+.card-image .image {
+  width: 110px;  /* تعديل العرض ليأخذ كامل عرض البطاقة */
+  height: 110px;  /* تعديل ارتفاع الصورة */
+
+  border-radius: 15px;  /* إضافة حواف منحنية للصورة */
+
+  border: 3px solid #000000;
+position: absolute;
+left: 18px;
+  
+}
+
+.card1{
+  position: absolute;
+  top: 300px;
+  left: 10px;
+}
+
+.card2{
+  position: absolute;
+  top: 300px;
+  right: 10px;
+}
+
+.card3{
+  position: absolute;
+  top: 600px;
+  left: 10px;
+}
+
+.card4{
+  position: absolute;
+  top: 600px;
+  right:10px;
+}
+
+.card5{
+  position: absolute;
+  top: 900px;
+  right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+.title {
+  font-size: 20px; /* حجم الخط */
+  font-weight: bold; /* جعل الخط عريض */
+  text-align: center; /* محاذاة النص في الوسط */
+  color: #fff; /* لون النص */
+  position: absolute; /* تحديد موضع العنوان بشكل مطلق داخل البطاقة */
+  top: 150px; /* تحديد المسافة من الأعلى (يمكنك تعديلها لتحديد المسافة بدقة) */
+  left: 50%; /* توسيط العنوان أفقيًا */
+  transform: translate(-50%, -50%); /* تصحيح التوسيط عموديًا وأفقيًا */
+}
+
+
+
